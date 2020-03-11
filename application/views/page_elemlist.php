@@ -1,8 +1,9 @@
 <?php
 $this->load->helper('html');
-$this->load->helper('url');
 $this->load->helper('form');
+$this->load->helper('url');
 ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>

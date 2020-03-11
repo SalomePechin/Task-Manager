@@ -108,7 +108,7 @@ class Utilisateur extends CI_Controller{
 		}
 	}
 
-	public function pageinscription(){
+	public function pageInscription(){
 		$erreur = null;
 		$this->showPageInscription($erreur);
 	}

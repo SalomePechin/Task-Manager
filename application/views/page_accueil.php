@@ -7,7 +7,7 @@ $this->load->helper('url');
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<link rel="stylesheet" type="text/css" href="<? echo base_url();?>/css/page_accueil.css">         <!--liaison avec le css correspondant-->
+	<link rel="stylesheet" type="text/css" href="<?= base_url('css/page_accueil.css')?>">         <!--liaison avec le css correspondant-->
 	<!--liaison avec le css correspondant-->
     <meta charset="UTF-8">
     <title>Page d'accueil</title>           <!--nom de la page-->
@@ -27,7 +27,7 @@ $this->load->helper('url');
 			<input type="submit" value="Valider">       <!--bouton pour vérifier si l'utilisateur est bien connecté avec son mot de passe-->
 		</form>
 
-		<?php echo form_open('utilisateur/pageinscription'); ?>   <!--envoi vers la page d'inscription-->
+		<?= form_open('utilisateur/pageInscription'); ?>   <!--envoi vers la page d'inscription-->
             <input type="submit" value="S'inscrire">        <!--bouton pour s'inscrire dans la base de données-->
         </form>
 
