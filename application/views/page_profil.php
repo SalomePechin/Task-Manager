@@ -7,7 +7,7 @@ $this->load->helper('url');
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<link rel="stylesheet" type="text/css" href="<? echo base_url();?>/css/page_profil.css">                      <!--liaison avec le css correspondant-->
+	<link rel="stylesheet" type="text/css" href="<?= base_url('css/page_profil.css')?>">                      <!--liaison avec le css correspondant-->
     <meta charset="UTF-8">
     <title>Page de Profil</title>                               <!--nom de la page-->
 </head>
